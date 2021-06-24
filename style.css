@@ -1,0 +1,106 @@
+
+h3{
+    color: #f722b7;
+    text-decoration: underline;
+    text-decoration-color: blue;
+   
+}
+h2{
+    color:blue;
+   margin:10px ;
+  text-align: center;
+  font-family:  Ink Free;
+ font-size: x-large;
+ font-weight: bolder;
+ text-decoration: underline;
+}
+h1{
+    color:red;
+    margin-left: 600px; 
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;  
+    text-decoration: double;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+    text-decoration: wavy;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color:white
+}
+.body{
+    text-size-adjust: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.bodyImage{
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: oblique;
+    border: 5px groove;
+    border-color: bisque;
+    border: 5px double greenyellow;
+}
+.bodyImage{
+    background-color:rgb(4, 59, 238);
+    display:flex;
+    justify-content: space-around;
+    border: 8px dotted rgb(87, 255, 124);
+}
+.grid img{
+    border-style: dotted;
+    border: 5px solid burlywood;
+    border-radius: 50px;
+}
+
+.item{
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 310px;
+    padding: 30px;
+    margin: 25px;
+    font-family:  Ink Free;
+    border: 5px double rgb(131, 209, 13);
+    font-weight: bolder;
+}
+.item{
+    border: 8px dotted rgb(128, 19, 230);
+
+}
+.item:hover img{
+    transform:scale(1.2);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    font-size: 20px;
+    font-family:  Ink Free;
+    font-weight: 400;
+    color: white;
+    font-stretch: expanded;
+   
+}
+body{
+    margin: 0px;
+    background-color: #f722b7;
+    border:5px groove rgb(128, 19, 230);
+    font-family:  Ink Free;
+    
+}
